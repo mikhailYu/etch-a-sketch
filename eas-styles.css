@@ -1,0 +1,58 @@
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bodyContainer
+{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.gridContainer
+{
+background-color: rgb(111, 178, 255);
+box-sizing: content-box;
+width: 900px;
+height: 900px;
+border: 3px solid black;
+display: flex;
+flex-flow: row wrap;
+
+}
+
+.gridContainer div 
+{
+    box-sizing: border-box;
+    
+    flex: 1 36px;
+}
+
+.buttonContainer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.buttonContainer>button
+{
+    font-size: 50px;
+    color: rgb(0, 40, 105);
+    background-color: rgb(111, 178, 255);
+    border-radius: 20px;
+    border: 3px solid darkblue;
+}
+
+.buttonContainer>button:hover
+{
+    background-color: rgb(235, 246, 255);
+}
+.buttonContainer>button:active
+{
+    background-color: rgb(0, 40, 95);
+    transform: scale(1.1);
+    color: white;
+    border: 3px solid rgb(255, 255, 255);
+}

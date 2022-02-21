@@ -1,0 +1,11 @@
+eas planning
+
+make grid container in html
+create styles parameters in css (flexbox, mainly about sizing, need a refresher), plus set the width/height of container
+additionally create color styles for the squares in grid
+in js, first declare variables that select html objects
+declare nessesary variables 
+create function that creates squares within the grid container. if flexbox is set correctly, the squares should auto fill and size themselves to fit into the container 
+
+
+
